@@ -3,7 +3,7 @@ env:
     REGISTRY_HOST: "quay.io"
     IMAGE_NAME: "example-voting"
     IMAGE_TAG: "votingApp"
-    DOCKERFILE_CONTEXT: "github/new-scan-engine"
+    DOCKERFILE_CONTEXT: "rbasterra/example-voting-app"
   
 name: Container build, scan and push
 
